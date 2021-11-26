@@ -1,7 +1,7 @@
-window.addEventListener('DOMContentLoaded', function(event){
+document.addEventListener('DOMContentLoaded', function(event){
     botao = document.querySelector('#back')
     botao.addEventListener('click', function(){
-        window.history.back()
+        document.history.back()
         console.log(document.history.back());
 })
 })
